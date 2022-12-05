@@ -1,0 +1,105 @@
+<!--
+    Nama 		: Faiq Muhammad, Nanda Raihan Sukma,
+              Ahmad Yahya Salim, Johanes Bagus Prasetyo
+    NPM			: 140810200011, 140810200015, 140810200031, 140810200043
+	  Kelas		: A
+	  Deskripsi	: Program Sederhana DSS tentang efektifitas
+                program pemerintah metode SAW.
+                HTML ini sebagai layer presentation sistem DSS.
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+	<link rel="stylesheet" href="styleweb.css">
+	</head>
+
+	<body>
+	<h1>
+  DSS <br>
+  -----------------------<br>
+  Efektifitas Program Pemerintah <br>
+  Kabupaten Sumedang <br>
+  </h1>
+
+	<form>
+    <p>VERSI : 1.0&emsp;&emsp;&emsp;</p>
+
+    <table>
+    <tr>
+      <th>NO</th>
+      <th>NAMA DESA</th>
+      <th>JUMLAH PARTISIPASI SEKOLAH</th>
+      <th>JUMLAH PESERTA DIDIK</th>
+      <th>JUMLAH PENDERITA PENYAKIT</th>
+      <th>JUMLAH PENYANDANG CACAT</th>
+      <th>JUMLAH PENERIMA KIP</th>
+      <th>JUMLAH PENERIMA KIS</th>
+      <th>JUMLAH PENERIMA KKS</th>
+    </tr>
+    <tr>
+      <td id="noDesa">1</td>
+      <td><input id="desa1" type="text"></td>
+      <td><input class="inputAngka" id="partisipasiSekolah1" type="text"></td>
+      <td><input class="inputAngka" id="pesertaDidik1" type="text"></td>
+      <td><input class="inputAngka" id="penderitaPenyakit1" type="text"></td>
+      <td><input class="inputAngka" id="penyandangCacat1" type="text"></td>
+      <td><input class="inputAngka" id="kip1" type="text"></td>
+      <td><input class="inputAngka" id="kis1" type="text"></td>
+      <td><input class="inputAngka" id="kks1" type="text"></td>
+    </tr>
+
+    <tr>
+      <td id="noDesa">2</td>
+      <td><input id="desa2" type="text"></td>
+      <td><input class="inputAngka" id="partisipasiSekolah2" type="text"></td>
+      <td><input class="inputAngka" id="pesertaDidik2" type="text"></td>
+      <td><input class="inputAngka" id="penderitaPenyakit2" type="text"></td>
+      <td><input class="inputAngka" id="penyandangCacat2" type="text"></td>
+      <td><input class="inputAngka" id="kip2" type="text"></td>
+      <td><input class="inputAngka" id="kis2" type="text"></td>
+      <td><input class="inputAngka" id="kks2" type="text"></td>
+    </tr>
+
+    <tr>
+      <td id="noDesa">3</td>
+      <td><input id="desa3" type="text"></td>
+      <td><input class="inputAngka" id="partisipasiSekolah3" type="text"></td>
+      <td><input class="inputAngka" id="pesertaDidik3" type="text"></td>
+      <td><input class="inputAngka" id="penderitaPenyakit3" type="text"></td>
+      <td><input class="inputAngka" id="penyandangCacat3" type="text"></td>
+      <td><input class="inputAngka" id="kip3" type="text"></td>
+      <td><input class="inputAngka" id="kis3" type="text"></td>
+      <td><input class="inputAngka" id="kks3" type="text"></td>
+    </tr>
+
+    <tr>
+      <td id="noDesa">4</td>
+      <td><input id="desa4" type="text"></td>
+      <td><input class="inputAngka" id="partisipasiSekolah4" type="text"></td>
+      <td><input class="inputAngka" id="pesertaDidik4" type="text"></td>
+      <td><input class="inputAngka" id="penderitaPenyakit4" type="text"></td>
+      <td><input class="inputAngka" id="penyandangCacat4" type="text"></td>
+      <td><input class="inputAngka" id="kip4" type="text"></td>
+      <td><input class="inputAngka" id="kis4" type="text"></td>
+      <td><input class="inputAngka" id="kks4" type="text"></td>
+    </tr>
+
+    </table>
+      
+    <br><br>
+    <button type="button" onclick="kalkulasiDSS()">Proses</button>
+    <br><br>	
+
+    <div id="output" style="display:none;">
+      <p id="menubawah">Desa Efektivitas Program Terminimal</p> <input id="desaMin" type="text" value=""> <br>
+      <p id="menubawah">Nilai Rank Desa</p> <input id="minRank" type="text" value=""> <br>
+      <p id="menubawah">Nilai Rank Desa Maks</p> <input id="maksRank" type="text" value=""> <br>
+      <p id="menubawah">Nilai Rank Desa Rata-Rata</p> <input id="avRank" type="text" value=""> <br><br>
+    </div>
+
+    <script src="DSSLogic.js"></script>
+		
+		</form>
+	</body>
+</html>
