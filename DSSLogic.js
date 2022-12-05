@@ -1,6 +1,7 @@
 /*
-Nama 		: 
-NPM			: 1408102000
+Nama 		: Faiq Muhammad, Nanda Raihan Sukma,
+              Ahmad Yahya Salim, Johanes Bagus Prasetyo
+NPM			: 140810200011, 140810200015, 140810200031, 140810200043
 Kelas		: A
 Deskripsi	: Logic perhitungan sistem DSS
 */
